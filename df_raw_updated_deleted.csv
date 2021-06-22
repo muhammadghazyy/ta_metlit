@@ -1,0 +1,79 @@
+gender,age,height,weight,job,phone_dur,app_dur,h_w_inc,education,photo_quan,earning,get
+Wanita,21,155,55,Mahasiswa,Lebih dari 6 jam,1 - 6 bulan,Tidak,Ya,3,Tidak,Ya
+Pria,20,181,83,Mahasiswa,Lebih dari 6 jam,6 - 12 bulan,Ya,Ya,3,Tidak,Ya
+Wanita,20,149,49,Mahasiswa,Kurang dari 4 jam,1 - 6 bulan,Tidak,Ya,5,Tidak,Tidak
+Wanita,20,169,58,Mahasiswa,4 - 6 jam,1 - 6 bulan,Tidak,Ya,1,Tidak,Tidak
+Pria,18,175,65,Mahasiswa,Kurang dari 4 jam,1 - 6 bulan,Tidak,Ya,2,Tidak,Tidak
+Pria,21,175,75,Mahasiswa,4 - 6 jam,Lebih dari 12 bulan,Ya,Tidak,4,Tidak,Ya
+Wanita,21,158,49,Mahasiswa,4 - 6 jam,1 - 6 bulan,Ya,Ya,3,Tidak,Ya
+Wanita,21,160,65,Mahasiswa,4 - 6 jam,1 - 6 bulan,Tidak,Ya,2,Tidak,Ya
+Wanita,22,155,46,Mahasiswa,4 - 6 jam,1 - 6 bulan,Ya,Tidak,2,Tidak,Ya
+Wanita,21,161,68,Mahasiswa,Lebih dari 6 jam,1 - 6 bulan,Tidak,Ya,3,Tidak,Tidak
+Wanita,21,150,41,Mahasiswa,Kurang dari 4 jam,1 - 6 bulan,Tidak,Tidak,2,Tidak,Tidak
+Wanita,21,155,40,Mahasiswa,Lebih dari 6 jam,1 - 6 bulan,Tidak,Ya,3,Tidak,Tidak
+Pria,20,183,75,Mahasiswa,Kurang dari 4 jam,1 - 6 bulan,Ya,Ya,4,Tidak,Tidak
+Pria,19,165.51755,57.763157,Tidak Bekerja,Lebih dari 6 jam,Lebih dari 12 bulan,Tidak,Tidak,3,Tidak,Tidak
+Wanita,19,150,50,Mahasiswa,Lebih dari 6 jam,1 - 6 bulan,Ya,Ya,6,Tidak,Ya
+Pria,19,170,50,Mahasiswa,4 - 6 jam,6 - 12 bulan,Tidak,Tidak,3,Ya,Ya
+Wanita,19,160,70,Mahasiswa,Lebih dari 6 jam,1 - 6 bulan,Tidak,Tidak,3,Tidak,Ya
+Pria,20,173,50,Mahasiswa,Kurang dari 4 jam,1 - 6 bulan,Tidak,Tidak,1,Tidak,Tidak
+Wanita,19,164,69,Mahasiswa,Lebih dari 6 jam,1 - 6 bulan,Ya,Ya,3,Tidak,Ya
+Pria,21,175,94,Mahasiswa,Lebih dari 6 jam,1 - 6 bulan,Tidak,Ya,2,Tidak,Tidak
+Wanita,20,160,50,Mahasiswa,4 - 6 jam,1 - 6 bulan,Tidak,Ya,3,Tidak,Ya
+Pria,19,175,53,Mahasiswa,Lebih dari 6 jam,1 - 6 bulan,Ya,Ya,3,Tidak,Tidak
+Pria,20,178,84,Mahasiswa,4 - 6 jam,1 - 6 bulan,Ya,Tidak,2,Tidak,Tidak
+Pria,20,178,56,Wiraswasta,Lebih dari 6 jam,1 - 6 bulan,Tidak,Tidak,0,Tidak,Ya
+Pria,10,165.51755,57.763157,Tidak Bekerja,Kurang dari 4 jam,1 - 6 bulan,Ya,Ya,0,Ya,Ya
+Wanita,18,158,45,Mahasiswa,Lebih dari 6 jam,6 - 12 bulan,Tidak,Tidak,3,Tidak,Ya
+Wanita,21,165,65,Mahasiswa,4 - 6 jam,1 - 6 bulan,Ya,Ya,3,Tidak,Ya
+Pria,18,187,79,Mahasiswa,4 - 6 jam,1 - 6 bulan,Tidak,Ya,0,Tidak,Tidak
+Wanita,20,156,50,Mahasiswa,4 - 6 jam,1 - 6 bulan,Tidak,Tidak,3,Tidak,Tidak
+Wanita,22,165,50,Mahasiswa,4 - 6 jam,1 - 6 bulan,Ya,Ya,2,Tidak,Tidak
+Wanita,25,165,65,Karyawan,Lebih dari 6 jam,Lebih dari 12 bulan,Tidak,Tidak,5,Tidak,Tidak
+Wanita,25,155,47,Karyawan,4 - 6 jam,1 - 6 bulan,Ya,Ya,3,Tidak,Ya
+Wanita,25,155,47,Karyawan,4 - 6 jam,1 - 6 bulan,Ya,Ya,3,Tidak,Ya
+Wanita,20,255,54,Mahasiswa,Lebih dari 6 jam,1 - 6 bulan,Ya,Tidak,4,Tidak,Ya
+Wanita,20,162,52,Mahasiswa,4 - 6 jam,6 - 12 bulan,Tidak,Tidak,1,Tidak,Ya
+Pria,20,152,50,Mahasiswa,4 - 6 jam,1 - 6 bulan,Tidak,Tidak,1,Tidak,Tidak
+Wanita,19,164,58,Mahasiswa,Lebih dari 6 jam,1 - 6 bulan,Ya,Tidak,1,Tidak,Ya
+Wanita,22,161,63,Mahasiswa,Lebih dari 6 jam,1 - 6 bulan,Ya,Ya,6,Tidak,Ya
+Wanita,23,146,40,Mahasiswa,Lebih dari 6 jam,1 - 6 bulan,Ya,Ya,3,Tidak,Ya
+Wanita,20,153,47,Mahasiswa,Lebih dari 6 jam,1 - 6 bulan,Ya,Ya,3,Tidak,Ya
+Wanita,24,163,50,Karyawan,Lebih dari 6 jam,6 - 12 bulan,Tidak,Tidak,6,Tidak,Ya
+Wanita,22,160,53,Mahasiswa,Lebih dari 6 jam,1 - 6 bulan,Ya,Ya,1,Tidak,Tidak
+Pria,17,175,62,Pelajar,Lebih dari 6 jam,1 - 6 bulan,Tidak,Tidak,1,Tidak,Ya
+Wanita,22,160,62,Mahasiswa,4 - 6 jam,1 - 6 bulan,Tidak,Tidak,1,Tidak,Tidak
+Wanita,22,168,66,Tidak Bekerja,Lebih dari 6 jam,6 - 12 bulan,Ya,Ya,3,Tidak,Ya
+Wanita,19,160,51,Mahasiswa,4 - 6 jam,6 - 12 bulan,Tidak,Ya,5,Tidak,Ya
+Wanita,20,170,60,Mahasiswa,Lebih dari 6 jam,6 - 12 bulan,Ya,Ya,6,Tidak,Ya
+Wanita,20,158,45,Tidak Bekerja,Lebih dari 6 jam,1 - 6 bulan,Tidak,Tidak,2,Tidak,Ya
+Wanita,20,158,65,Tidak Bekerja,Kurang dari 4 jam,1 - 6 bulan,Tidak,Ya,6,Tidak,Ya
+Pria,22,170,70,Mahasiswa,Lebih dari 6 jam,6 - 12 bulan,Tidak,Ya,6,Tidak,Ya
+Wanita,21,165,55,Mahasiswa,4 - 6 jam,6 - 12 bulan,Tidak,Ya,4,Tidak,Ya
+Wanita,23,168,60,Mahasiswa,Lebih dari 6 jam,6 - 12 bulan,Tidak,Tidak,6,Tidak,Ya
+Pria,20,170,65,Mahasiswa,4 - 6 jam,1 - 6 bulan,Ya,Tidak,5,Tidak,Ya
+Wanita,20,165,50,Mahasiswa,4 - 6 jam,1 - 6 bulan,Tidak,Tidak,6,Tidak,Ya
+Pria,21,169,57,Mahasiswa,4 - 6 jam,6 - 12 bulan,Ya,Ya,6,Tidak,Ya
+Wanita,20,163,48,Mahasiswa,4 - 6 jam,6 - 12 bulan,Tidak,Tidak,6,Tidak,Ya
+Wanita,19,164,50,Mahasiswa,4 - 6 jam,6 - 12 bulan,Tidak,Ya,6,Tidak,Ya
+Pria,24,168,59,Mahasiswa,Lebih dari 6 jam,6 - 12 bulan,Tidak,Tidak,1,Tidak,Ya
+Wanita,23,158,46,Mahasiswa,Lebih dari 6 jam,1 - 6 bulan,Tidak,Ya,4,Tidak,Ya
+Pria,22,165,55,Mahasiswa,Lebih dari 6 jam,6 - 12 bulan,Ya,Ya,1,Tidak,Ya
+Pria,19,165,56,Pelajar,Lebih dari 6 jam,1 - 6 bulan,Ya,Tidak,1,Tidak,Ya
+Pria,22,167,52,Mahasiswa,Lebih dari 6 jam,6 - 12 bulan,Ya,Tidak,1,Tidak,Ya
+Pria,23,165,55,Mahasiswa,Lebih dari 6 jam,6 - 12 bulan,Tidak,Ya,1,Tidak,Ya
+Wanita,19,155,43,Tidak Bekerja,4 - 6 jam,1 - 6 bulan,Tidak,Tidak,3,Tidak,Ya
+Pria,19,163,57,Mahasiswa,Lebih dari 6 jam,6 - 12 bulan,Ya,Ya,3,Tidak,Tidak
+Wanita,21,156,48,Mahasiswa,Lebih dari 6 jam,1 - 6 bulan,Ya,Tidak,1,Tidak,Tidak
+Wanita,20,167,60,Mahasiswa,Lebih dari 6 jam,1 - 6 bulan,Ya,Ya,1,Tidak,Ya
+Wanita,21,157,41,Mahasiswa,Lebih dari 6 jam,1 - 6 bulan,Ya,Ya,3,Tidak,Ya
+Pria,21,173,60,Mahasiswa,Lebih dari 6 jam,Lebih dari 12 bulan,Ya,Ya,4,Tidak,Ya
+Wanita,20,168,67,Mahasiswa,Lebih dari 6 jam,1 - 6 bulan,Tidak,Ya,3,Tidak,Tidak
+Wanita,20,150,42,Mahasiswa,Lebih dari 6 jam,1 - 6 bulan,Ya,Tidak,3,Tidak,Ya
+Wanita,20,164,52,Mahasiswa,Lebih dari 6 jam,1 - 6 bulan,Tidak,Ya,3,Tidak,Ya
+Pria,23,170,80,Mahasiswa,4 - 6 jam,6 - 12 bulan,Tidak,Ya,4,Tidak,Ya
+Wanita,24,150,60,Karyawan,Lebih dari 6 jam,Lebih dari 12 bulan,Ya,Ya,3,Tidak,Ya
+Pria,21,176,93,Mahasiswa,Lebih dari 6 jam,1 - 6 bulan,Ya,Ya,2,Tidak,Ya
+Wanita,20,148,49,Mahasiswa,4 - 6 jam,1 - 6 bulan,Tidak,Ya,3,Tidak,Tidak
+Wanita,20,148,49,Mahasiswa,4 - 6 jam,1 - 6 bulan,Tidak,Ya,3,Tidak,Tidak
+Pria,18,167,72,Mahasiswa,4 - 6 jam,1 - 6 bulan,Tidak,Tidak,0,Tidak,Tidak
