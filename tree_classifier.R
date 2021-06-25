@@ -9,7 +9,7 @@ library(rpart)
 library(rpart.plot)
 
 #Data preprocess and cleaning
-df_final_raw <- read.csv("D:/Ghazi/Kuliah/Semester 6/MetLit/TA/df_raw_updated.csv")
+df_final_raw <- read.csv("D:/Ghazi/Kuliah/Semester 6/MetLit/ta_metlit/df_raw_updated.csv")
 df_final_raw_deleted <- read.csv("D:/Ghazi/Kuliah/Semester 6/MetLit/TA/df_raw_updated_deleted.csv")
 dfr = df_final_raw
 

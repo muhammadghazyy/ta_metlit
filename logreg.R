@@ -1,14 +1,18 @@
 library(MASS)
 library(ggplot2)
+library(caret)
+library(e1071)
+library(pROC)
+library(ResourceSelection)
 
 df_final <- read.csv("D:/Ghazi/Kuliah/Semester 6/MetLit/TA/df_final.csv")
 df_final_onehot <- read.csv("D:/Ghazi/Kuliah/Semester 6/MetLit/TA/df_final_onehot.csv")
 
 
 #Raw 
-df_final_raw <- read.csv("D:/Ghazi/Kuliah/Semester 6/MetLit/TA/df_raw_updated.csv")
+df_final_raw <- read.csv("D:/Ghazi/Kuliah/Semester 6/MetLit/ta_metlit/df_raw_updated.csv")
 df_final_raw_deleted <- read.csv("D:/Ghazi/Kuliah/Semester 6/MetLit/TA/df_raw_updated_deleted.csv")
-dfr = df_final_raw_deleted
+dfr = df_final_raw
 
 dfr$gender = as.factor(dfr$gender)
 dfr$job = as.factor(dfr$job)
@@ -56,6 +60,7 @@ step
 summary(step)
 step_r2 = ((step$null.deviance/-2) - (step$deviance/-2)) / (step$null.deviance/-2)
 step_r2
+hoslem.test(dfr$get , fitted(step))
 
 #Final model
 finalmodel = glm(get~app_dur,family = binomial(link='logit'),data=dfr)
@@ -92,7 +97,30 @@ predicted.data.step$rank <- 1:nrow(predicted.data.step)
 predicted.data.step
 
 ggplot(data=predicted.data.step, aes(x=rank, y=probability.of.dapet)) +
-  geom_point(aes(color=get), alpha=1, shape=4, stroke=2) +
+  geom_point(aes(color=get), alpha=1, shape=10, stroke=2) +
   xlab("Index") +
   ylab("Predicted probability of getting partner")
 
+
+### Roc auc logistic
+r = multiclass.roc(dfr$get,fitted(step),percent = TRUE)
+roc = r[['rocs']]
+r1 = roc[[1]]
+plot.roc(r1,
+         print.auc=TRUE,
+         auc.polygon=TRUE,
+         grid=c(0.1, 0.2),
+         grid.col=c("green", "red"),
+         max.auc.polygon=TRUE,
+         auc.polygon.col="lightblue",
+         print.thres=TRUE,
+         main= 'ROC Curve')
+
+
+### Step paper
+#1 decision tree , interpretasi
+#2 full log model, perhatikan AIC
+#3 stepaic full log model , aic lebih bagus
+#4 goodnes of fit hoslem test , step model, model bagus
+#5 interpretasi
+#6 kesimpulan
