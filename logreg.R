@@ -4,6 +4,8 @@ library(caret)
 library(e1071)
 library(pROC)
 library(ResourceSelection)
+library(readxl)
+
 
 df_final <- read.csv("D:/Ghazi/Kuliah/Semester 6/MetLit/TA/df_final.csv")
 df_final_onehot <- read.csv("D:/Ghazi/Kuliah/Semester 6/MetLit/TA/df_final_onehot.csv")
@@ -12,7 +14,10 @@ df_final_onehot <- read.csv("D:/Ghazi/Kuliah/Semester 6/MetLit/TA/df_final_oneho
 #Raw 
 df_final_raw <- read.csv("D:/Ghazi/Kuliah/Semester 6/MetLit/ta_metlit/df_raw_updated.csv")
 df_final_raw_deleted <- read.csv("D:/Ghazi/Kuliah/Semester 6/MetLit/TA/df_raw_updated_deleted.csv")
+df_final_raw_photokat <- read_excel("D:/Ghazi/Kuliah/Semester 6/MetLit/ta_metlit/data TA.xlsx")
 dfr = df_final_raw
+dfr = df_final_raw_photokat
+dfr$photo_quan = NULL
 
 dfr$gender = as.factor(dfr$gender)
 dfr$job = as.factor(dfr$job)
@@ -22,6 +27,7 @@ dfr$h_w_inc = as.factor(dfr$h_w_inc)
 dfr$education = as.factor(dfr$education)
 dfr$earning = as.factor(dfr$earning)
 dfr$get = as.factor(dfr$get)
+dfr$photo_quan_kat = as.factor(dfr$photo_quan_kat)
 
 dfr$photo_quan = as.integer(dfr$photo_quan)
 dfr$age = as.integer(dfr$age)
