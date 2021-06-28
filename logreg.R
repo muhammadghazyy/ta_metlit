@@ -64,7 +64,7 @@ summary(modelkita)
 step = stepAIC(logistic,direction = 'both',trace=FALSE)
 step
 summary(step)
-step_r2 = ((step$null.deviance/-2) - (step$deviance/-2)) / (step$null.deviance/-2)
+Astep_r2 = ((step$null.deviance/-2) - (step$deviance/-2)) / (step$null.deviance/-2)
 step_r2
 hoslem.test(dfr$get , fitted(step))
 
